@@ -23,6 +23,13 @@
   margin-left: auto;
   margin-right: auto;
   border-radius: 100%;
+  border: solid $header-bg-color 0.5rem;
   position: relative;
   width: 13rem;
+}
+
+.container {
+  padding: 3rem 0 2rem;
+  margin: auto;
+  max-width: 40rem;
 }
