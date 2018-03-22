@@ -1,3 +1,14 @@
 title: ozeno
+description: Ömer Özen
 google_analytics:
 theme: jekyll-theme-cayman
+
+author:
+  rss                       : false
+  linkedin                  : ozeno
+  mail                      : omer.ozen@bil.omu.edu.tr # change to your e-mail address
+  # twitter                   : twitter-user-name
+  github                    : ozeno
+  # youtube                   : youtube-user-name
+  # stackoverflow             : stackoverflow-user-name
+  # google_analytics          : # 'UA-XXXXXXXX-X'

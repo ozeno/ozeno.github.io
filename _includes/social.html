@@ -1,0 +1,41 @@
+<div class="social">
+  <ul>
+    {% if site.author.stackoverflow %}
+    <li>
+      <a href="https://stackoverflow.com/{{ site.author.stackoverflow }}" target="_blank" class="smaller">
+        <span class="fab fa-stack-overflow"></span>
+      </a>
+    </li>
+    {% endif %} {% if site.author.twitter %}
+    <li>
+      <a href="https://twitter.com/{{ site.author.twitter }}" target="_blank" class="smaller">
+        <span class="fab fa-twitter"></span>
+      </a>
+    </li>
+    {% endif %} {% if site.author.github %}
+    <li>
+      <a href="https://github.com/{{ site.author.github }}" target="_blank" class="smaller">
+        <span class="fab fa-github"></span>
+      </a>
+    </li>
+    {% endif %} {% if site.author.mail %}
+    <li>
+      <a href="mailto:{{ site.author.mail }}" target="_blank">
+        <span class="far fa-envelope-open"></span>
+      </a>
+    </li>
+    {% endif %} {% if site.author.rss == true %}
+    <li>
+      <a href="{{ '/feed.xml' | prepend: site.baseurl }}" target="_blank">
+        <span class="fas fa-rss"></span>
+      </a>
+    </li>
+    {% endif %} {% if site.author.linkedin %}
+    <li>
+      <a href="https://linkedin.com/{{}}" target="_blank" class="smaller">
+        <span class="fab fa-linkedin-in"></span>
+      </a>
+    </li>
+    {% endif %}
+  </ul>
+</div>
