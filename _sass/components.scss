@@ -24,19 +24,5 @@
   margin-right: auto;
   border-radius: 100%;
   position: relative;
-
-  @include large {
-    width: 21rem;
-    padding: 4rem;
-  }
-
-  @include medium {
-    width: 18rem;
-    padding: 3rem;
-  }
-
-  @include small {
-    width: 15rem;
-    padding: 2rem;
-  }
+  width: 13rem;
 }
