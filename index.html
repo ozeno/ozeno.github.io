@@ -1,14 +1,95 @@
----
-layout: default
----
-<br>
-<img
-    class="me"
-    alt="{{ site.title }}"
-    src="{{ site.author.photo | relative_url }}"
-/>
-<br>
+<!DOCTYPE html>
+<html lang="en-US">
 
-<div class="container">
-    <p>Lorem ipsum dolor sit amet, vix feugiat maiorum id, qui harum eruditi ea. Duis ipsum accusata vis et. Nec ipsum viris scripserit ne. Persius euripidis nam id, mei clita facilisis vulputate et, ne paulo habemus deterruisset usu. Eum atqui antiopam expetenda et, eos an graecis tincidunt intellegam. Mollis definitionem cum eu, diam debet populo qui ad.</p>
-</div>
+<head>
+  <meta charset="UTF-8">
+
+  <!-- Begin Jekyll SEO tag v2.4.0 -->
+  <title>ozeno | Ömer Özen</title>
+  <meta name="generator" content="Jekyll v3.7.3" />
+  <meta property="og:title" content="ozeno" />
+  <meta property="og:locale" content="en_US" />
+  <meta name="description" content="Ömer Özen" />
+  <meta property="og:description" content="Ömer Özen" />
+  <link rel="canonical" href="http://localhost:4000/" />
+  <meta property="og:url" content="http://localhost:4000/" />
+  <meta property="og:site_name" content="ozeno" />
+  <script type="application/ld+json">
+{"name":"ozeno","description":"Ömer Özen","@type":"WebSite","url":"http://localhost:4000/","headline":"ozeno","@context":"http://schema.org"}</script>
+  <!-- End Jekyll SEO tag -->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#157878">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/assets/css/style.css?v=">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">ozeno</h1>
+      <h2 class="project-tagline">Ömer Özen</h2>
+      <div class="social">
+        <ul>
+
+          <li>
+            <a href="https://github.com/ozeno" target="_blank" class="smaller">
+              <span class="fa fa-github fa-lg"></span>
+            </a>
+          </li>
+
+          <li>
+            <a href="mailto:omer.ozen@bil.omu.edu.tr" target="_blank">
+              <span class="fa fa-envelope-open"></span>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.linkedin.com/in/ozeno" target="_blank" class="smaller">
+              <span class="fa fa-linkedin"></span>
+            </a>
+          </li>
+
+        </ul>
+      </div>
+    </section>
+
+    <section class="main-content">
+      <br>
+      <img class="me" alt="ozeno" src="/assets/img/me.jpeg" />
+      <br>
+      <div id="salut">Hi!</div>
+      <br>
+      <div class="container">
+        <h2>Who am i? (tl;dr)</h2>
+        <p>Computer Engineering undergrad <br>
+          - <br>  
+          ❤ languages <br>
+          - <br> 
+          cruious about ML <br>
+        </p>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <span>Made with ❤</span>
+    </footer>
+
+
+  </body>
+
+</html>
+
+<script>
+  var ss = ["Salut!", "你好!", "Merhaba!", "Hi!"];
+  var i = 0;
+
+  function myLoop() {
+    setTimeout(function () {
+      document.getElementById("salut").innerHTML = ss[i % ss.length];
+      i++;
+      myLoop();
+    }, 2000)
+  }
+
+  myLoop();
+</script>

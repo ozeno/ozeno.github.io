@@ -23,13 +23,20 @@
   margin-left: auto;
   margin-right: auto;
   border-radius: 100%;
-  border: solid $header-bg-color 0.5rem;
+  border: solid #199771 0.4rem;
   position: relative;
   width: 13rem;
 }
 
 .container {
+  text-align: center;
+  font-size: 1.5rem;
   padding: 3rem 0 2rem;
   margin: auto;
   max-width: 40rem;
+}
+
+#salut {
+  text-align: center;
+  font-size: 3.5rem;
 }
